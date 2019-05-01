@@ -1,0 +1,40 @@
+#banner{
+    background-color: black;
+}
+
+#gif{
+    max-width: 75%;
+    background: url("../assets/images/test.gif") no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#bannerOne{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bannerTwo{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#bannerButton{
+    width: 7%;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+mat-drawer {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }

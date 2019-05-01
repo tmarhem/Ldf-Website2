@@ -1,4 +1,16 @@
-<!--The content below is only a placeholder and can be replaced.-->
+    <mat-drawer-container class="example-container" [hasBackdrop]="true">
+        <mat-drawer #drawer [mode]="push">I'm a drawer</mat-drawer>
+        <mat-drawer-content>
+          
+            <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
+<div id="banner">
+  <div id="gif">
+    <img id="bannerOne" src="../assets/images/banner.png">
+    <img id="bannerTwo" src="../assets/images/bannersecond.png">
+    <img id="bannerButton" src="../assets/images/bannerbutton.png">
+  </div>
+</div>
+
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -19,3 +31,10 @@
 </ul>
 
 <router-outlet></router-outlet>
+
+<footer>
+  Footer
+</footer>
+
+</mat-drawer-content>
+</mat-drawer-container>
