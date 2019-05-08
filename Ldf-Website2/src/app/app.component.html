@@ -1,44 +1,29 @@
 <div id=component>
-  <!-- NAVBAR -->
-  <div id="navbar">
 
-    <button mat-button>
-      <mat-icon>home</mat-icon>
-    </button>
-    <button mat-button>
-      <mat-icon>donut_large</mat-icon>
-    </button>
-    <button mat-button>
-      <mat-icon>fingerprint</mat-icon>
-    </button>
-    <button mat-button>
-      <mat-icon>person</mat-icon>
-    </button>
-    <button mat-button>
-      <mat-icon>perm_media</mat-icon>
-    </button>
-
-
-  </div>
-
-  <div id="page">
-
-    <div id="banner">
-      <div id="gif">
-        <img id="bannerOne" src="../assets/images/banner.png">
-        <img id="bannerTwo" src="../assets/images/bannersecond.png">
-        <img id="bannerButton" src="../assets/images/bannerbutton.png">
+  <mat-sidenav-container>
+    <!-- Left Side Content -->
+    <mat-sidenav-content (click)="sidenav.toggle()">
+      <div id="leftSide">
+        <div id="banner">
+          <img src="../assets/images/banner_logo_def.png">
+          <div>Les Lions de Flandre</div>
+        </div>
       </div>
-    </div>
+    </mat-sidenav-content>
 
+    <!-- Right side content -->
+    <mat-sidenav #sidenav mode="side" position="end">
 
-    
+      <header>
+        Header
+      </header>
+      <router-outlet></router-outlet>
+      <footer>
+        Footer
+      </footer>
 
+    </mat-sidenav>
 
-    <router-outlet></router-outlet>
+  </mat-sidenav-container>
 
-    <footer>
-      Footer
-    </footer>
-  </div>
 </div>

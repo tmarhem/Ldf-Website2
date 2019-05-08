@@ -1,55 +1,56 @@
+.mat-drawer-container {
+    height: -webkit-fill-available;
+    min-width: 600px;;
+
+}
+
+mat-sidenav{
+    width: 50%;
+    min-width: 512px;
+}
+
+mat-sidenav-content{
+    background-image: url("../assets/images/ldfbannerbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+#banner{
+    background-color: gray;
+    width: fit-content;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 150px;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+#banner img{
+  max-width: calc(842px/3);
+  max-height:calc(470px/3);
+  width: 100%;
+  height: auto;
+}
+
+#banner div{
+    font-family: 'Bebas-Neue-master';
+    font-size: 0.5in;
+    color: whitesmoke;
+}
+
+
+#leftSide{
+    height: -webkit-fill-available;
+}
+
 #component{
-    margin-left: 55px;
+    margin-left: -8px;
     margin-top: -8px;
     margin-right: -8px;
 }
 
-#navbar{
-    background-color: grey;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    margin-left:-63px;
-    height: 100%;
-}
-
-
-
-#banner{
-    background-color: black;
-}
-
-#gif{
-    max-width: 75%;
-    background: url("../assets/images/test.gif") no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-}
-
-#bannerOne{
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#bannerTwo{
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-}
-
-#bannerButton{
-    width: 7%;
-    display: inline-block;
-    margin-right: 0px;
-}
-
 footer{
     background-color: black;
-    height: -webkit-fill-available;
 }
