@@ -1,6 +1,6 @@
 .mat-drawer-container {
     height: -webkit-fill-available;
-    min-width: 600px;;
+    min-width: 600px;
 
 }
 
@@ -28,18 +28,21 @@ mat-sidenav-content{
 }
 
 #banner img{
-  max-width: calc(842px/3);
-  max-height:calc(470px/3);
-  width: 100%;
-  height: auto;
+    max-width: calc(842px/3.5);
+    max-height:calc(470px/3.5);
+    width: 100%;
+    height: auto;
 }
 
 #banner div{
     font-family: 'Bebas-Neue-master';
     font-size: 0.5in;
     color: whitesmoke;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+    margin-left: 30px;
 }
-
 
 #leftSide{
     height: -webkit-fill-available;
@@ -49,6 +52,25 @@ mat-sidenav-content{
     margin-left: -8px;
     margin-top: -8px;
     margin-right: -8px;
+}
+
+header{
+    background-color: gray;
+}
+
+header img{
+    height: 30px;
+    width: auto;
+    margin-left: 15px;
+}
+
+header span{
+    font-family: 'Bebas-Neue-master';
+    font-size: 0.2in;
+    color: whitesmoke;
+    margin-right: 30px;
+    margin-left: 15px;
+    vertical-align: super;
 }
 
 footer{
