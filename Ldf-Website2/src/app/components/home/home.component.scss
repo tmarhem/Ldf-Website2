@@ -17,7 +17,7 @@
     box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
 }
 
-#animations h1{
+h1{
     font-family: 'Bebas-Neue-master';
     font-size: 0.3in;
     text-align: center;
@@ -26,7 +26,7 @@
 
 mat-card{
     min-width: 255px;
-    margin: 35px;
+    margin: 15px;
     border-radius: 3px;
 }
 
@@ -57,5 +57,24 @@ mat-card-content{
 
 #exceptionnels mat-card-content{
     background-image: url("../../../assets/images/exceptionnel.jpg");
+}
+
+#flexTop{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+#flexTopRight{
+    width: 50%;
+    min-width: 220px;
+}
+#facebook{
+    width: fit-content;
+}
+
+.rectangle{
+    min-height: 100px;
 }
 
