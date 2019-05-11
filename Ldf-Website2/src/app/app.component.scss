@@ -5,7 +5,7 @@
 }
 
 mat-sidenav{
-    width: 50%;
+    width: 58%;
     min-width: 512px;
 }
 
@@ -25,13 +25,17 @@ mat-sidenav-content{
     margin-bottom: 150px;
     display: flex;
     flex: 0 0 auto;
+
+    -webkit-box-shadow: 16px 22px 20px -4px rgba(0,0,0,0.8);
+-moz-box-shadow: 16px 22px 20px -4px rgba(0,0,0,0.8);
+box-shadow: 16px 22px 20px -4px rgba(0,0,0,0.8);
 }
 
 #banner img{
-    max-width: calc(842px/3.5);
-    max-height:calc(470px/3.5);
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 90px;
+    object-position: top;
+    object-fit: cover;
 }
 
 #banner div{
@@ -48,6 +52,12 @@ mat-sidenav-content{
     height: -webkit-fill-available;
 }
 
+#rightSide{
+    -webkit-box-shadow: -9px 1px 45px 22px rgba(0,0,0,0.73);
+    -moz-box-shadow: -9px 1px 45px 22px rgba(0,0,0,0.73);
+    box-shadow: -9px 1px 45px 22px rgba(0,0,0,0.73);
+}
+
 #component{
     margin-left: -8px;
     margin-top: -8px;
@@ -55,13 +65,18 @@ mat-sidenav-content{
 }
 
 header{
-    background-color: gray;
+    // background-color: gray;
+    background: rgb(53,52,62);
+background: linear-gradient(90deg, rgba(53,52,62,1) 60%, rgba(185,179,118,1) 97%, rgba(173,145,30,0.835171568627451) 100%);
 }
 
 header img{
     height: 30px;
-    width: auto;
-    margin-left: 15px;
+    width: 50px;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 header span{

@@ -1,12 +1,33 @@
 #component{
     display: flex;
     flex-direction: row;
-    // flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#animations, #association{
+    max-width: 50%;
+    min-width: min-content;
+}
+
+.tile{
+    -webkit-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+}
+
+#animations h1{
+    font-family: 'Bebas-Neue-master';
+    font-size: 0.3in;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 mat-card{
     min-width: 255px;
-    margin: 15px;
+    margin: 35px;
+    border-radius: 3px;
 }
 
 mat-card-title{
@@ -28,5 +49,13 @@ mat-card-content{
     background-position-x: center;
     background-position-y: center;
     height: 150px;
+}
+
+#ecoles mat-card-content{
+    background-image: url("../../../assets/images/ecole.jpg");
+}
+
+#exceptionnels mat-card-content{
+    background-image: url("../../../assets/images/exceptionnel.jpg");
 }
 
