@@ -10,6 +10,11 @@ import { AnimationsComponent } from './components/animations/animations.componen
 import { CampsComponent } from './components/animations/camps/camps.component';
 import { SchoolsComponent } from './components/animations/schools/schools.component';
 import { ExceptionnalsComponent } from './components/animations/exceptionnals/exceptionnals.component';
+import { PresentationComponent } from './components/association/presentation/presentation.component';
+import { JoinComponent } from './components/association/join/join.component';
+import { ContactComponent } from './components/association/contact/contact.component';
+import { MembersComponent } from './components/association/members/members.component';
+import { HistoryComponent } from './components/association/history/history.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { ExceptionnalsComponent } from './components/animations/exceptionnals/ex
     AnimationsComponent,
     CampsComponent,
     SchoolsComponent,
-    ExceptionnalsComponent
+    ExceptionnalsComponent,
+    PresentationComponent,
+    JoinComponent,
+    ContactComponent,
+    MembersComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
