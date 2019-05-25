@@ -1,133 +1,16 @@
 <div id="component">
 
-  <!-- Animations -->
-  <div id="animations">
+    <mat-tab-group>
+        <mat-tab label="Notre association">
 
-    <h1>
-      Nos animations
-    </h1>
-    <mat-divider></mat-divider>
+          <app-association></app-association>
 
-    <!-- Card: Les camps -->
-    <mat-card id="camps" class="tile">
-      <mat-card-header>
-        <div mat-card-avatar>
-          <mat-icon>flag</mat-icon>
-        </div>
-        <mat-card-title>Les camps</mat-card-title>
-        <mat-card-subtitle>
-          <mat-chip-list>
-            <mat-chip>Vie de camp</mat-chip>
-            <mat-chip>Batailles</mat-chip>
-            <mat-chip>Ateliers</mat-chip>
-          </mat-chip-list>
-        </mat-card-subtitle>
-      </mat-card-header>
-
-      <mat-card-content>
-      </mat-card-content>
-      <!-- <mat-card-actions>
-        <button mat-button>Détails</button>
-      </mat-card-actions> -->
-    </mat-card>
-
-    <!-- Card: Les écoles -->
-    <mat-card id="ecoles" class="tile">
-      <mat-card-header>
-        <div mat-card-avatar>
-          <mat-icon>assignment</mat-icon>
-        </div>
-        <mat-card-title>Les écoles</mat-card-title>
-        <mat-card-subtitle>
-          <mat-chip-list>
-            <mat-chip>Programme scolaire</mat-chip>
-            <mat-chip>Démonstrations</mat-chip>
-          </mat-chip-list>
-        </mat-card-subtitle>
-      </mat-card-header>
-
-      <mat-card-content>
-      </mat-card-content>
-      <!-- <mat-card-actions>
-        <button mat-button>Détails</button>
-      </mat-card-actions> -->
-    </mat-card>
-
-    <!-- Card: Les exceptionnels -->
-    <mat-card id="exceptionnels" class="tile">
-      <mat-card-header>
-        <div mat-card-avatar>
-          <mat-icon>star_rate</mat-icon>
-        </div>
-        <mat-card-title>Les exceptionnels</mat-card-title>
-        <mat-card-subtitle>
-          <mat-chip-list>
-            <mat-chip>Original</mat-chip>
-            <mat-chip>Sur mesure</mat-chip>
-          </mat-chip-list>
-        </mat-card-subtitle>
-      </mat-card-header>
-
-      <mat-card-content>
-      </mat-card-content>
-      <!-- <mat-card-actions>
-        <button mat-button>Détails</button>
-      </mat-card-actions> -->
-    </mat-card>
-  </div>
-
-  <!-- Association -->
-  <div id="association">
-
-    <h1>
-      Notre association
-    </h1>
-    <mat-divider></mat-divider>
-
-    <div id="flexTop">
-      <!-- Div: Facebook -->
-      <div id="facebook" class="tile">
-        <div class="fb-page" data-height="312px" data-href="https://www.facebook.com/LesLionsDeFlandres/"
-        data-tabs="timeline, events" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
-        data-show-facepile="false">
-        <blockquote cite="https://www.facebook.com/LesLionsDeFlandres/" class="fb-xfbml-parse-ignore">
-          <a href="https://www.facebook.com/LesLionsDeFlandres/">Les Lions de Flandre</a>
-        </blockquote>
-      </div>
-    </div>
-    
-    <div id="flexTopRight">
-      <!-- Div: Histoire détaillée -->
-      <div id="history" class="tile rectangle">
-        Histoire détaillée
-      </div>
+        </mat-tab>
+        <mat-tab label="Nos animations"> 
+          
+          <app-animations></app-animations>
+        
+        </mat-tab>
+    </mat-tab-group>
       
-      <!-- Div: Nos membres -->
-      <div id="members" class="tile rectangle">
-        Nos membres
-      </div>
-    </div>
-  </div>
-      
-    <div id="intro" class="tile rectangle">
-      <h2>
-        En bref
-      </h2>
-      <p>
-        Association de reconstitution et d'animation médiévale militaire et artisanale du XVe siècle
-      </p>
-    </div>
-
-    <!-- Div: Nous rejoindre -->
-    <div id="join" class="tile rectangle">
-      Nous rejoindre
-    </div>
-
-    <!-- Div: Contact -->
-    <div id="contact" class="tile rectangle">
-      Contact
-    </div>
-
-  </div>
-
 </div>

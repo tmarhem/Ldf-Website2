@@ -1,0 +1,57 @@
+#animations{
+    min-width: min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#flexCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+mat-card{
+    min-width: 255px;
+    margin: 15px;
+    border-radius: 3px;
+    flex-grow: 3;
+    height: fit-content;
+}
+
+mat-card-title{
+    font-size: large;
+}
+
+mat-card-subtitle{
+    margin-left: -60px ;
+}
+
+mat-chip{
+    font-size: smaller;
+    margin: 0;
+}
+
+mat-card-content{
+    background-image: url("../../../assets/images/camp.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    padding-bottom: 125px;
+    padding-top: 125px;   
+    color: whitesmoke;
+    text-align: center;
+}
+
+#ecoles mat-card-content{
+    background-image: url("../../../assets/images/ecole.jpg");
+}
+
+#exceptionnels mat-card-content{
+    background-image: url("../../../assets/images/exceptionnel.jpg");
+}
+
+.tile{
+    -webkit-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+}
