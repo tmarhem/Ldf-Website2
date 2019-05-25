@@ -1,12 +1,8 @@
 #association{
     min-width: min-content;
+    margin: 15px;
 }
 
-.tile{
-    -webkit-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
-    -moz-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
-    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
-}
 
 #flexTop{
     display: flex;
@@ -15,14 +11,26 @@
     justify-content: space-around;
 }
 
-#flexTopRight{
-    flex-grow: 3;
+#enbref{
+    min-width: 255px;
+    width: 60%;
+    margin-right: 15px;
+    margin-top: 32px;
+    color: whitesmoke;
+    background: rgb(53,52,62);
+    background: linear-gradient(90deg, rgba(53,52,62,1) 90%,
+     rgba(185,179,118,1) 99%,
+      rgba(173,145,30,0.835171568627451) 100%);
 }
 
-.rectangle{
-    min-height: 150px;
-    margin-bottom: 15px;
+#enbref h2{
+    margin-top: -32px;
+    color: #f2c615;
+    font-family: 'Bebas-Neue-Master';
+    text-shadow: 2px 2px black;
+    font-size: 2em;
 }
+
 
 #facebook{
     width: fit-content;
@@ -30,6 +38,65 @@
     margin-right:15px;
 }
 
-#enbref{
-    margin-top: -15px;
+#flexRectangle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+.tile{
+    -webkit-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+    box-shadow: 2px 5px 8px 3px rgba(0,0,0,0.41);
+}
+
+.rectangle{
+    min-width: 355px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    flex-grow: 2;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+#flexRectangle .rectangle{
+    height:110px;
+    padding-top: 75px;
+    text-align: center;
+}
+
+#history{
+    background-image: url("../../../assets/images/pierreDeRoubaix.jpg")
+}
+
+#members{
+    background-image: url("../../../assets/images/hast.jpg")
+}
+
+#join{
+    background-image: url("../../../assets/images/charge.jpg")
+}
+
+#contact{
+    height: 60px;
+    padding-top: 25px;
+    text-align: center;
+    background: rgb(53,52,62);
+    background: linear-gradient(90deg, rgba(53,52,62,1) 10%,
+     rgba(185,179,118,1) 50%,
+      rgba(173,145,30,0.835171568627451) 100%);
+}
+
+.titleText{
+    font-family: 'Bebas-Neue-Master';
+    color: whitesmoke;
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+}
+
+#flexRectangle .titleText:hover{
+    transition: 0.4s;
+    font-size: 2.5em;
+}
+
