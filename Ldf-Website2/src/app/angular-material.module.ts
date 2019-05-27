@@ -13,7 +13,7 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import {BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -47,7 +47,6 @@ import {BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-
     MatSliderModule,
     MatSidenavModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule,
     MatSnackBarModule
   ],
   exports: [
