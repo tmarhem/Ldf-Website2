@@ -37,7 +37,7 @@ mat-card-content{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    padding-top: 250px;   
+    padding-top: 250px;
     color: whitesmoke;
     text-align: center;
 }
@@ -61,4 +61,8 @@ mat-card-content{
     color: whitesmoke;
     font-size: 2em;
     text-shadow: 2px 2px black;
+}
+
+.mat-card-content:hover{
+  cursor: pointer;
 }

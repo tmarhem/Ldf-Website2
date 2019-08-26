@@ -83,6 +83,20 @@ header span{
     vertical-align: super;
 }
 
+#returnButton{
+  position: absolute;
+  right: 25px;
+  top: 12px;
+  font-family: 'Bebas-Neue-master';
+  font-size: 0.175in;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#returnButton .mat-icon{
+  margin-right: -10px;
+}
+
 footer{
     background-color: black;
 }
