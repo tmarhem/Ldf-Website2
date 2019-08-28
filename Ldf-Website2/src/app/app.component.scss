@@ -45,6 +45,7 @@ mat-sidenav-content{
 
 #leftSide{
     height: -webkit-fill-available;
+    cursor: pointer;
 }
 
 #rightSide{
@@ -60,9 +61,8 @@ mat-sidenav-content{
 }
 
 header{
-    // background-color: gray;
-    background: rgb(53,52,62);
-background: linear-gradient(90deg, rgba(53,52,62,1) 60%, rgba(185,179,118,1) 97%, rgba(173,145,30,0.835171568627451) 100%);
+  background: rgb(53,52,62);
+  background: linear-gradient(90deg, rgba(53,52,62,1) 60%, rgba(185,179,118,1) 97%, rgba(173,145,30,0.835171568627451) 100%);
 }
 
 header img{
@@ -95,6 +95,24 @@ header span{
 
 #returnButton .mat-icon{
   margin-right: -10px;
+}
+
+#coontinueToSite{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 25px;
+  bottom: 25px;
+  font-family: 'Bebas-Neue-master';
+  font-size: 0.3in;
+  color: whitesmoke;
+  cursor: pointer;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+
+#coontinueToSite .mat-icon{
+  font-size: 0.4in;
+  margin-bottom: 15px;
 }
 
 footer{

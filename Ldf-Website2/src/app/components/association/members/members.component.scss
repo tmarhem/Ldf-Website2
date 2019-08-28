@@ -1,0 +1,30 @@
+p, h1{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 50px;
+
+}
+
+#intro{
+  margin: 50px;
+}
+
+.mat-card-avatar{
+  background-image: url('../../../../assets/images/logo_poleaxe2.png');
+  background-position: center;
+}
+
+#memberCards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  align-items: center
+}
+
+.mat-card{
+  width: 28%;
+  margin: 10px;
+  min-width: 300px;
+  max-width: 400px;
+  height: fit-content;
+}
+

@@ -15,6 +15,7 @@ import { JoinComponent } from './components/association/join/join.component';
 import { ContactComponent } from './components/association/contact/contact.component';
 import { MembersComponent } from './components/association/members/members.component';
 import { HistoryComponent } from './components/association/history/history.component';
+import { FacebookModule } from 'ngx-facebook';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { HistoryComponent } from './components/association/history/history.compo
     BrowserAnimationsModule,
     AppRoutingModule,
     AngularMaterialModule,
+    FacebookModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

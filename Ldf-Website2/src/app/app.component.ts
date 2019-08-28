@@ -17,7 +17,7 @@ export class AppComponent {
     ) { }
 
   goBack = (): void => {
-    console.log('url', this.location.path());
+    console.log(`SIDENAV`, this.sidenav.opened);
     if ( this.location.path() === `/home`) {
       this.sidenav.toggle();
     } else {
