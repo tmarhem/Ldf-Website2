@@ -16,14 +16,13 @@ p, h1{
 #memberCards{
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 2;
-  align-items: center
+  justify-content: space-evenly;
 }
 
 .mat-card{
   width: 28%;
   margin: 10px;
-  min-width: 300px;
+  min-width: 275px;
   max-width: 400px;
   height: fit-content;
 }
