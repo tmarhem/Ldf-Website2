@@ -10,7 +10,7 @@ import { MatSidenav} from '@angular/material';
 })
 export class AppComponent {
   title = 'Ldf-Website2';
-  @ViewChild('sidenav') sidenav: MatSidenav;
+  @ViewChild('sidenav', { static: true}) sidenav: MatSidenav;
 
   constructor(
     public location: Location,

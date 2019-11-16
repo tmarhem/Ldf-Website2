@@ -16,8 +16,10 @@ import { ContactComponent } from './components/association/contact/contact.compo
 import { MembersComponent } from './components/association/members/members.component';
 import { HistoryComponent } from './components/association/history/history.component';
 import { FacebookModule } from 'ngx-facebook';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler/src/core';
 
 @NgModule({
+  // schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   declarations: [
     AppComponent,
     HomeComponent,
