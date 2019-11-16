@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FacebookService } from 'ngx-facebook';
 
 @Component({
   selector: 'app-contact',
@@ -7,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  constructor(public fb: FacebookService) {
+    fb.init({
+      appId: '2176767399269409',
+      xfbml: true,
+      version: 'v5.0'
+    });
 
+  }
   ngOnInit() {
   }
 

@@ -4,13 +4,23 @@
     <!-- Left Side Content -->
     <mat-sidenav-content (click)="sidenav.toggle()">
       <div id="leftSide">
+
         <div id="banner">
           <img src="../assets/images/logo.png">
-          <div>
-            <p>Troupe de reconstitution militaire bourguignonne XVe siècle</p>
-            <p>Association loi 1901</p>
+          <div *ngIf="!sidenav.opened"
+          >
+            Troupe de reconstitution militaire bourguignonne XVe siècle
+            <!-- <p>Association loi 1901</p> -->
           </div>
         </div>
+        <slideshow class="slideshow"
+        [autoPlay]="true"
+  [showArrows]="false"
+   [imageUrls]="this.imagesUrls"
+   [autoPlayInterval]="5000"
+>
+  </slideshow>
+
         <div id="coontinueToSite" *ngIf="!sidenav.opened">
           <span>Accéder au site</span><mat-icon>arrow_right_alt</mat-icon>
         </div>

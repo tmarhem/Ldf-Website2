@@ -1,9 +1,10 @@
 import { FacebookModule, FacebookService, InitParams } from 'ngx-facebook';
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { trigger, transition, style, animate } from '@angular/animations';
 @Component({
   selector: 'app-association',
   templateUrl: './association.component.html',
-  styleUrls: ['./association.component.scss']
+  styleUrls: ['./association.component.scss'],
 })
 
 export class AssociationComponent implements OnInit {

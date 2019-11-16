@@ -16,6 +16,7 @@ import { ContactComponent } from './components/association/contact/contact.compo
 import { MembersComponent } from './components/association/members/members.component';
 import { HistoryComponent } from './components/association/history/history.component';
 import { FacebookModule } from 'ngx-facebook';
+import {SlideshowModule} from 'ng-simple-slideshow';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler/src/core';
 
 @NgModule({
@@ -39,6 +40,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler/src/core';
     BrowserAnimationsModule,
     AppRoutingModule,
     AngularMaterialModule,
+    SlideshowModule,
     FacebookModule.forRoot()
   ],
   providers: [],
