@@ -14,7 +14,6 @@ export class AppComponent implements OnInit{
   imagesUrls=[
     '../assets/images/ldfbannerbackground.jpg',
     '../assets/images/background2.jpg',
-    '../assets/images/background3.jpg',
     '../assets/images/background4.jpeg',
     '../assets/images/background5.jpeg',
     '../assets/images/background6.jpg',
@@ -31,7 +30,6 @@ export class AppComponent implements OnInit{
     }
 
   goBack = (): void => {
-    console.log(`SIDENAV`, this.sidenav.opened);
     if ( this.location.path() === `/home`) {
       this.sidenav.toggle();
     } else {

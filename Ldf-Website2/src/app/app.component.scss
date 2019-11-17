@@ -1,7 +1,7 @@
-@media (max-width: 900px) {
-  #banner div{
-    display :none }
- }
+// @media (max-width: 900px) {
+//   #banner div{
+//     display :none }
+//  }
 
 .mat-drawer-container {
     height: 100vh;
@@ -26,23 +26,26 @@ mat-sidenav-content{
 
 }
 
-#banner {
+
+
+#logo{
   position: absolute;
   z-index: 2;
-
-}
-
-#banner img{
-  width: 200px;
+  width: 150px;
   height: auto;
-  margin: 15px;
+  margin: 25px;
   // margin-left: 45%;
   // margin-bottom: -60px;
-  filter: drop-shadow(0px 0px 5px rgb(200, 200, 200));
+  filter: drop-shadow(0px 0px 3px rgb(200, 200, 200));
 
 }
 
-#banner div{
+#bigTitle{
+  width: 370px;
+    bottom: 25px;
+    margin-left: 25px;
+  position: absolute;
+  z-index: 2;
     font-family: 'Bebas-Neue-master';
     font-size: 0.7in;
     color: whitesmoke;
@@ -77,7 +80,6 @@ mat-sidenav-content{
 
 header{
   background: rgb(53,52,62);
-  background: linear-gradient(90deg, rgba(53,52,62,1) 60%, rgba(185,179,118,1) 97%, rgba(173,145,30,0.835171568627451) 100%);
 }
 
 header img{
@@ -91,26 +93,33 @@ header img{
 
 header span{
     font-family: 'Bebas-Neue-master';
-    font-size: 0.2in;
+    font-size: 0.3in;
     color: whitesmoke;
     margin-right: 30px;
     margin-left: 15px;
     vertical-align: super;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
 }
 
-#returnButton{
-  position: absolute;
-  right: 25px;
-  top: 12px;
-  font-family: 'Bebas-Neue-master';
-  font-size: 0.175in;
-  color: whitesmoke;
-  cursor: pointer;
-}
 
-#returnButton .mat-icon{
-  margin-right: -10px;
-}
+#returnButton2{
+  position: fixed;
+    right: 3%;
+    bottom: 3%;
+    font-family: 'Bebas-Neue-master';
+    font-size: 0.175in;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  #returnButton2 span, #returnButton2 mat-icon{
+    color: whitesmoke;
+  }
+
 
 #coontinueToSite{
   position: absolute;
@@ -133,4 +142,8 @@ header span{
 
 footer{
     background-color: black;
+}
+
+.mat-raised-button{
+  background-color: currentColor;
 }

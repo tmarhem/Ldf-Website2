@@ -5,14 +5,13 @@
     <mat-sidenav-content (click)="sidenav.toggle()">
       <div id="leftSide">
 
-        <div id="banner">
-          <img src="../assets/images/logo.png">
-          <div *ngIf="!sidenav.opened"
+          <img id="logo" src="../assets/images/logo.png">
+          <div id="bigTitle" *ngIf="!sidenav.opened"
           >
             Troupe de reconstitution militaire bourguignonne XVe siècle
             <!-- <p>Association loi 1901</p> -->
           </div>
-        </div>
+
         <slideshow class="slideshow"
         [autoPlay]="true"
   [showArrows]="false"
@@ -31,13 +30,20 @@
     <mat-sidenav #sidenav mode="side" position="end" id="rightSide">
 
       <header>
-        <img src="../assets/images/banner_logo_def.png"> <span> Les Lions de FLandre</span>
-        <div id="returnButton" (click)="goBack()">
+        <!-- <img src="../assets/images/banner_logo_def.png">  -->
+        <span> Les Lions de FLandre</span>
+        <!-- <div id="returnButton" (click)="goBack()">
           <mat-icon>keyboard_backspace</mat-icon> <span>Retour</span>
-        </div>
+        </div> -->
       </header>
 
       <router-outlet></router-outlet>
+
+      <div id="returnButton2">
+          <button mat-raised-button (click)="this.goBack()">
+            <mat-icon>keyboard_backspace</mat-icon><span> Retour</span>
+          </button>
+        </div>
 
       <footer>
         Footer

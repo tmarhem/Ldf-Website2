@@ -3,7 +3,7 @@
   <div id="flexTop">
 
     <!-- Div: En bref -->
-    <div id="enbref" class="tile rectangle" routerLink="/presentation" routerLinkActive="active">
+    <div id="enbref" class="tile rectangle">
       <h2>
         En bref
       </h2>
@@ -32,11 +32,11 @@
     </div>
 
     <!-- Div: Facebook -->
-    <div id="facebook" >
+    <div id="facebook" [ngStyle]="{height: this.fbHeight}">
     <fb-page id ="facebook"
-    data-height="312px"
+    data-height ="auto"
+    data-small-header = "true"
     data-tabs="timeline, events"
-    data-small-header="true"
     href="https://www.facebook.com/LesLionsDeFlandre/"></fb-page>
 
 
@@ -72,7 +72,7 @@
 
   </div>
     <!-- Div: Contact -->
-    <div id="contact" class="tile rectangle titleText" routerLink="/contact" routerLinkActive="active">
+    <div id="contact" class="tile rectangle titleText" (click)="this.openContactModal()">
       Contact
     </div>
 
