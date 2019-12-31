@@ -14,13 +14,6 @@ mat-sidenav{
     min-width: 512px;
 }
 
-mat-sidenav-content{
-    // background-image: url("../assets/images/ldfbannerbackground.jpg");
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position-y: center;
-}
-
 .slideshow{
   z-index: 1;
 
@@ -102,7 +95,10 @@ header span{
     justify-content: center;
     padding-top: 12px;
     padding-bottom: 12px;
+}
 
+header span:hover {
+  cursor: pointer;
 }
 
 
@@ -141,9 +137,33 @@ header span{
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    color:grey;
 }
 
 .mat-raised-button{
   background-color: currentColor;
 }
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  list-style: none;
+}
+
+footer span {
+  font-weight: bold;
+  margin-left: -15px;
+  margin-bottom: 5px;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+

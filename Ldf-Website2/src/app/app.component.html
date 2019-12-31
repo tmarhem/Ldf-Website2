@@ -31,7 +31,7 @@
 
       <header>
         <!-- <img src="../assets/images/banner_logo_def.png">  -->
-        <span> Les Lions de FLandre</span>
+        <span routerLink="/home" routerLinkActive="active"> Les Lions de Flandre</span>
         <!-- <div id="returnButton" (click)="goBack()">
           <mat-icon>keyboard_backspace</mat-icon> <span>Retour</span>
         </div> -->
@@ -46,7 +46,19 @@
         </div>
 
       <footer>
-        Footer
+        <ul>
+         <span>Association</span>
+          <li routerLink="/history" routerLinkActive="active">Histoire détaillée</li>
+          <li routerLink="/members" routerLinkActive="active">Nos membres</li>
+          <li routerLink="/join" routerLinkActive="active">Nous rejoindre</li>
+          <li (click)="openContactModal()">Contact</li>
+        </ul>
+        <ul>
+          <span>Animations</span>
+          <li routerLink="/camps" routerLinkActive="active">Les camps</li>
+          <li routerLink="/schools" routerLinkActive="active">Les écoles</li>
+          <li routerLink="/exceptionnals" routerLinkActive="active">Les exceptionnels</li>
+        </ul>
       </footer>
 
     </mat-sidenav>

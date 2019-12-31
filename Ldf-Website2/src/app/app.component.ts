@@ -1,6 +1,8 @@
 import { Component, ViewChild, OnInit } from '@angular/core';
 import {Location} from '@angular/common';
 import { MatSidenav} from '@angular/material';
+import { MatDialog, MatDialogRef } from '@angular/material';
+import { ContactComponent } from './components/association/contact/contact.component';
 
 
 @Component({
@@ -24,6 +26,7 @@ export class AppComponent implements OnInit{
 
   constructor(
     public location: Location,
+    public dialog: MatDialog
     ) { }
 
     ngOnInit(): void {
@@ -35,5 +38,9 @@ export class AppComponent implements OnInit{
     } else {
       this.location.back();
     }
+  }
+
+  openContactModal = () => {
+    this.dialog.open(ContactComponent);
   }
 }
