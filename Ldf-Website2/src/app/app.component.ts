@@ -1,9 +1,9 @@
-import { Component, ViewChild, OnInit } from '@angular/core';
+import { Component, ViewChild, OnInit, AfterViewInit } from '@angular/core';
 import {Location} from '@angular/common';
 import { MatSidenav} from '@angular/material';
 import { MatDialog, MatDialogRef } from '@angular/material';
 import { ContactComponent } from './components/association/contact/contact.component';
-
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -26,10 +26,15 @@ export class AppComponent implements OnInit{
 
   constructor(
     public location: Location,
-    public dialog: MatDialog
+    public dialog: MatDialog,
     ) { }
 
     ngOnInit(): void {
+      if ( this.location.path() === `/home`) {
+        this.sidenav.close();
+      } else {
+        this.sidenav.open();
+      }
     }
 
   goBack = (): void => {
@@ -43,4 +48,6 @@ export class AppComponent implements OnInit{
   openContactModal = () => {
     this.dialog.open(ContactComponent);
   }
+
+
 }

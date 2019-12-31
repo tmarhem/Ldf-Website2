@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, AfterViewChecked } from '@angular/core';
+import { ScrollService } from 'src/app/services/scroll.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-history',
@@ -7,11 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistoryComponent implements OnInit {
 
-  constructor(){ }
+  fragment: any;
 
-  ngOnInit() {
+  constructor(public route: Router){ }
 
-  }
+
+   ngOnInit(): void {
+    document.querySelector('#timeline-content').scrollIntoView();
+   }
 
 
 

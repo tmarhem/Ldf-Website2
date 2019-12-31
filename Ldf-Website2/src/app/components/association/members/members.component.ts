@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatSidenav } from '@angular/material';
 
 @Component({
   selector: 'app-members',
@@ -10,6 +11,7 @@ export class MembersComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    document.querySelector('#membresTop').scrollIntoView();
   }
 
 }

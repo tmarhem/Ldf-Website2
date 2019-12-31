@@ -18,6 +18,7 @@ import { HistoryComponent } from './components/association/history/history.compo
 import { FacebookModule } from 'ngx-facebook';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler/src/core';
+import { ScrollService } from './services/scroll.service';
 
 @NgModule({
   // schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
@@ -43,7 +44,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler/src/core';
     SlideshowModule,
     FacebookModule.forRoot()
   ],
-  providers: [],
+  providers: [ScrollService],
   bootstrap: [AppComponent],
   entryComponents: [ContactComponent]
 })
