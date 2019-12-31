@@ -30,7 +30,7 @@ export class AppComponent implements OnInit{
     ) { }
 
     ngOnInit(): void {
-      if ( this.location.path() === `/home`) {
+      if ( this.location.path() === `/home` || this.location.path() === ``) {
         this.sidenav.close();
       } else {
         this.sidenav.open();
