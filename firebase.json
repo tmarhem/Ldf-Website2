@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "Ldf-Website2/dist/Ldf-Website2",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
