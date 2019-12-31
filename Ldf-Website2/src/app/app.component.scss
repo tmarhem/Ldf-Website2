@@ -6,7 +6,11 @@
 .mat-drawer-container {
     height: 100vh;
     min-width: 600px;
+}
 
+::ng-deep .mat-drawer-inner-container{
+  height: fit-content !important;
+  background-color: white;
 }
 
 mat-sidenav{
@@ -68,6 +72,7 @@ mat-sidenav{
     -webkit-box-shadow: -9px 1px 45px 22px rgba(0,0,0,0.73);
     -moz-box-shadow: -9px 1px 45px 22px rgba(0,0,0,0.73);
     box-shadow: -9px 1px 45px 22px rgba(0,0,0,0.73);
+    background-color: black;
 }
 
 
@@ -139,6 +144,7 @@ header span:hover {
 footer{
     background-color: rgb(0, 0, 0);
     color:grey;
+    height: inherit;
 }
 
 .mat-raised-button{
