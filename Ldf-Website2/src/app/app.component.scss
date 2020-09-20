@@ -1,8 +1,3 @@
-// @media (max-width: 900px) {
-//   #banner div{
-//     display :none }
-//  }
-
 .mat-drawer-container {
     height: 100vh;
     // min-width: 600px;
@@ -20,6 +15,11 @@
   }
   header span{
     justify-content: left !important;
+  }
+  #bigTitle{
+    font-size: 0.5in !important;
+    width: 300px !important;
+    top: 200px !important;
   }
 
 }
