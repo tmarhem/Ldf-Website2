@@ -1,6 +1,19 @@
+
+@media (max-width: 512px) {
+  #enbref{
+    min-width: 0px !important;
+  }
+  #association{
+    min-width: 0px !important;
+  }
+  .rectangle{
+    min-width: 0px !important;
+  }
+}
+
 #association{
-    min-width: min-content;
-    margin: 15px;
+  min-width: min-content;
+  margin: 15px;
 }
 
 
