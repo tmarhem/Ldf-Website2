@@ -5,7 +5,7 @@
 
 .mat-drawer-container {
     height: 100vh;
-    min-width: 600px;
+    // min-width: 600px;
 }
 
 ::ng-deep .mat-drawer-inner-container{
@@ -16,7 +16,7 @@
 @media (max-width: 512px) {
   mat-sidenav{
     width: 100% !important;
-    min-width: 250px !important;
+    min-width: 50px !important;
   }
 }
 
