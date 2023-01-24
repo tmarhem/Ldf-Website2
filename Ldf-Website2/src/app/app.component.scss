@@ -35,6 +35,11 @@ mat-sidenav{
 
 }
 
+::ng-deep .slideshow-container {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
 
 
 #logo{
