@@ -1,7 +1,7 @@
 <div id="component">
 
-    <mat-tab-group>
-        <mat-tab label="Notre association">
+    <mat-tab-group (selectedTabChange)="onTabClick($event)" [selectedIndex]="selectedIndex">
+        <mat-tab label="Notre association" >
 
           <app-association></app-association>
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Location} from '@angular/common'; 
 
 @Component({
   selector: 'app-home',
@@ -8,11 +9,26 @@ import { Component, OnInit } from '@angular/core';
 
 export class HomeComponent implements OnInit {
 
-  constructor() {
+  constructor(private location: Location ) {
 
   }
 
+  selectedIndex = 0
+
+  onTabClick(event) {
+    console.log('ontabclick', event)
+    if(event.index === 1) {
+      this.location.replaceState("/animations");
+    }
+    if(event.index === 0) {
+      this.location.replaceState("/home");
+    }
+  }
+
   ngOnInit() {
+    if(this.location.path() === '/animations') {
+      this.selectedIndex = 1
+    }
   }
 
 

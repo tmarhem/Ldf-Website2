@@ -13,6 +13,7 @@ import { SchoolsComponent } from './components/animations/schools/schools.compon
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
+  {path: 'animations', component: HomeComponent},
   {path: 'presentation', component: PresentationComponent},
   {path: 'history', component: HistoryComponent},
   {path: 'contact', component: ContactComponent},
