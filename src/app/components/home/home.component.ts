@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Location} from '@angular/common'; 
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -9,19 +10,18 @@ import {Location} from '@angular/common';
 
 export class HomeComponent implements OnInit {
 
-  constructor(private location: Location ) {
+  constructor(private location: Location, private _router: Router ) {
 
   }
 
   selectedIndex = 0
 
   onTabClick(event) {
-    console.log('ontabclick', event)
     if(event.index === 1) {
-      this.location.replaceState("/animations");
+      this._router.navigateByUrl("/animations");
     }
     if(event.index === 0) {
-      this.location.replaceState("/home");
+      this._router.navigateByUrl("/home");
     }
   }
 

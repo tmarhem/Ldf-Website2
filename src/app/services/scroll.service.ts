@@ -41,7 +41,6 @@ export class ScrollService implements OnDestroy {
   get topOfPageElement() {
     if (!this._topOfPageElement) {
       // this._topOfPageElement = this.document.getElementById('top-of-page') || this.document.body;
-      console.log("TCL: ScrollService -> gettopOfPageElement -> this.document", this.document)
       this._topOfPageElement = this.document.getElementById('top-of-page') || this.document.header;
 
     }

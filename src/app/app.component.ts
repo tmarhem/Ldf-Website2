@@ -3,7 +3,7 @@ import {Location} from '@angular/common';
 import { MatSidenav} from '@angular/material';
 import { MatDialog, MatDialogRef } from '@angular/material';
 import { ContactComponent } from './components/association/contact/contact.component';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +27,7 @@ export class AppComponent implements OnInit{
   constructor(
     public location: Location,
     public dialog: MatDialog,
-    ) { }
+    private _router: Router) { }
 
     ngOnInit(): void {
       if ( this.location.path() === `/home` || this.location.path() === ``) {
@@ -40,7 +40,10 @@ export class AppComponent implements OnInit{
   goBack = (): void => {
     if ( this.location.path() === `/home`) {
       this.sidenav.toggle();
-    } else {
+    } else if ( this.location.path() === `/animations`) {
+      this._router.navigateByUrl('/home')
+    }
+    else {
       this.location.back();
     }
   }
