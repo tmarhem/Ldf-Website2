@@ -40,7 +40,7 @@ export class HistoryComponent implements OnInit {
   },
   {
     date: 'Jan 1430',
-    description: `Fondation de l’ordre de la Toison d’or. Jean de Roubaix, père de Jean, en devient
+    description: `Fondation de l’ordre de la Toison d’or. Jean de Roubaix, père de Pierre, en devient
     membre`
   },
   {
@@ -64,7 +64,7 @@ export class HistoryComponent implements OnInit {
   },
   {
     date: '1452 - 1463',
-    description: `Pierre de Roubaix fait le pèlerinage à Jérusalem et à Rome`
+    description: `Pierre de Roubaix fait le pèlerinage à Jérusalem et à Rome ( date indeterminée )`
   },
   {
     date: '1461',
@@ -84,7 +84,7 @@ export class HistoryComponent implements OnInit {
   },
   {
     date: '15 Juin 1467',
-    description: `Mort de Philippe le Bon à Bruges, à 71 ans. Charles le téméraire lui succède à la tête du 
+    description: `Mort de Philippe le Bon à Bruges, à 71 ans. Charles le Téméraire lui succède à la tête du 
     duché`
   },
   {
@@ -107,7 +107,7 @@ export class HistoryComponent implements OnInit {
   },
   {
     date: '1475',
-    description: `Charles le téméraire assiège et prend Nancy, forçant le duc de Lorraine René II, qui coupe le 
+    description: `Charles le Téméraire assiège et prend Nancy, forçant le duc de Lorraine René II, qui coupe le 
     passage entre les possessions méridionales et septentrionales du duc de Bourgogne, à s’exiler. 
     Entrée en guerre des Bourguignons contre les Bernois et leurs alliés pour le contrôle de la route des 
     Alpes. `
@@ -124,7 +124,7 @@ export class HistoryComponent implements OnInit {
     Bourgogne, privant Marie de Bourgogne d’une partie de sa succession et l’obligeant à trouver une 
     alliance avec Maximilien I
     er de Habsbourg, futur empereur du Saint Empire qu’elle épouse. Pierre de 
-    Roubaix reste fidèle à Marie malgré les ravages des français sur les terres flamandes. `
+    Roubaix reste fidèle à Marie malgré les ravages des Français sur les terres flamandes. `
   },
   {
     date: '1482',

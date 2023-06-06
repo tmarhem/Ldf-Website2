@@ -17,7 +17,7 @@ export class MembersComponent implements OnInit {
     name: 'Pierre de Roubaix',
     subName: '1415-1498',
     title: 'Seigneur',
-    picture: 'pierre.jpg',
+    picture: 'pierre-roubaix.jpg',
     story: `<p>
     Né à Herzelles le 1er août 1415, il succède à son père, Jean de Roubaix, à la tête de la
     seigneurie, à 34 ans, en 1449. Marié à Marguerite de Ghistelles, dame de Broeucq et de
@@ -156,7 +156,7 @@ en exerçant ses talents de brodeuse et de couturière.
     name: 'Aslain Durosel',
     subName: '1440-1525',
     title: 'Soldat',
-    // picture: 'martin.jpg',
+    picture: 'aslain-durosel.jpg',
     story: `<p>Fils de vilain, il est recueilli par de Roubaix, à 12 ans, après l’incendie de la ferme
     familiale. Ce dernier le prend alors sous son aile et en fait son écuyer. On lui
     apprend alors à lire et à écrire en latin. Il devient quasiment le fils que de Roubaix
@@ -168,6 +168,21 @@ en exerçant ses talents de brodeuse et de couturière.
     la bataille de Montlhéry, il y retrouve son frère, disparu 13 ans plus tôt lors de
     l’incendie de la ferme familiale, et parvient à le convaincre de rejoindre les troupes
     de son seigneur.</p>`
+  },
+  {
+    name: 'Jehan de Fleury',
+    subName: '?????-????',
+    title: 'Soldat',
+    picture: '',
+    story: `
+    <p>Jehan de Fleury est originaire du comté de Hainaut et plus précisément de Fleury.</p>
+    <p>Il s’ennuie à travailler dans les champs et aux fourneaux, ou à exécuter les basses œuvres de la famille. Il n’est pas l’aîné (il a 2 frères et 1 sœur), n’a pas droit aux honneurs et se retrouve toujours au second plan (même sur les gravures de famille). « Fleury, c’est un peu comme la prison », écrira ce poète dans ses mémoires. Cette maxime ne tombera pas dans l’oreille d’un sourd.</p>
+    <p>Alors que c’est à l’aîné que doit revenir l’héritage familial, Jehan est envoyé par ses parents dans un monastère pour servir Dieu. C’est là qu’il apprend à lire et à écrire, mais les saintes écritures le laissent de marbre. « Du soir au matin, ça brassait de la bière, mais surtout du vent », se remémore Jehan, qui dévore en cachette les récits antiques dissimulés dans la réserve monastique. Le mythe de la Toison d’Or lui réchauffe le cœur.</p>
+    <p>Il rêve de grandes aventures, de découvertes, de combats épiques et d’amours passionnés. Aussi, lorsque la compagnie des Lions de Flandre, menée par Pierre de Roubaix, passe à proximité du bourg, il n’hésite pas, quitte la bure et la bière et déclare à la famille : « Si c’est ça, je file à Roubaix ».</p>
+    <p>Jehan apprend le maniement des armes à la dure et découvre l’âpre vie des camps. Il est empli de bonne volonté, mais sa maladresse caractérisée lui attire les remontrances régulières du dizainier, qui le gratifie souvent d’un « Alors toi, t’es un comique, troupier ».</p>
+    <p>Il ne laissera certes pas une trace indélébile dans l’Histoire, à l’instar de son homonyme Jean (Jehan) de Roubaix – ce  qui l’amènera à conclure, toujours dans ses mémoires : « Je me suis un peu retrouvé Gros-Jehan, comme devant » – mais son courage, son ardeur et sa bonhommie auront permis d’accroître la renommée de la troupe.</p>
+    <p>Et quelle jolie troupe.</p>
+    `
   }
   ]
     
