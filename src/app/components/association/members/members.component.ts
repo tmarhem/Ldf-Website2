@@ -54,7 +54,7 @@ export class MembersComponent implements OnInit {
   },
   {
     name: 'Martin Guerre',
-    subName: '1408-1477',
+    subName: 'dit La Sieste',
     title: 'Sergent',
     picture: 'martin.jpg',
     story: `<p>
@@ -67,7 +67,7 @@ export class MembersComponent implements OnInit {
   },
   {
     name: 'Adélaïde de Oignies',
-    subName: '1410-1477',
+    subName: 'dite Courte-Patte',
     title: 'Sergent',
     picture: 'adelaide.jpg',
     story: `<p>
@@ -167,7 +167,7 @@ en exerçant ses talents de brodeuse et de couturière.
   },
   {
     name: 'Aslain Durosel',
-    subName: '1440-1525',
+    subName: 'dit Le Mignon',
     title: 'Soldat',
     picture: 'aslain-durosel.jpg',
     story: `<p>Fils de vilain, il est recueilli par de Roubaix, à 12 ans, après l’incendie de la ferme
@@ -184,7 +184,7 @@ en exerçant ses talents de brodeuse et de couturière.
   },
   {
     name: 'Jehan de Fleury',
-    subName: '?????-????',
+    subName: 'dit Tournedos',
     title: 'Soldat',
     picture: 'jehan.jpg',
     story: `
