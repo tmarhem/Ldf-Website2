@@ -12,7 +12,7 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-  title = 'Ldf-Website2';
+  title = 'Les Lions de Flandre - Association de reconstitution médiévale XVe siècle';
   @ViewChild('sidenav', { static: true}) sidenav: MatSidenav;
   imagesUrls=[
     '../assets/images/ldfbannerbackground.jpg',
