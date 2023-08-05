@@ -54,13 +54,26 @@ export class MembersComponent implements OnInit {
   },
   {
     name: 'Martin Guerre',
-    subName: 'dit La Sieste',
+    subName: '1408-1477',
     title: 'Sergent',
     picture: 'martin.jpg',
     story: `<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut nisi non arcu pretium tincidunt sit amet id dolor. Curabitur malesuada massa sed nunc facilisis sagittis. Fusce eget laoreet mauris. Praesent bibendum dapibus lacinia. Nullam at congue est, at ullamcorper risus. Aenean lobortis auctor tempus. Nam in tincidunt lorem. Donec congue ante vel turpis aliquet, ut ultricies urna varius. Nullam id dignissim eros. Nunc ultricies eget lorem ut lobortis.
-    Proin nibh mi, sodales eu tristique sed, auctor consectetur metus. Donec quis mauris vel ex semper porttitor. In facilisis quam quam, tempor sagittis purus maximus sit amet. Vivamus imperdiet nunc elit, mollis commodo enim fermentum sit amet. Duis accumsan venenatis leo id pharetra. Mauris malesuada laoreet vulputate. Pellentesque auctor lorem leo, et semper lectus eleifend quis. Nullam quis mollis nisi, non finibus neque. Donec blandit non dolor et fringilla. Integer nec risus dui. Morbi sapien lectus, fermentum non suscipit ac, eleifend quis orci. Etiam viverra feugiat tempor. Cras luctus libero fringilla tempus pulvinar. Suspendisse in finibus turpis. Nulla molestie interdum erat, id elementum nibh placerat eget. Nulla sodales nibh auctor bibendum posuere.
-  </p>`
+    Martin Guerre le fils de l'essarteur passa son enfance dans un village du Nord de la France. Les gens qui l'ont connu à cette époque parlent d'un jeune homme doux et souriant. Un caractère très contrasté avec celui du molosse qui l'accompagnait partout. Un chien aux aboiements féroces qui passait son temps à se battre, manger et à dormir.
+    Quand la famine survint, elle s'abattit sur le village avec la même hargne que la petite vérole sur le bas clergé. Le père mourut de la fièvre et la mère disparu dans des conditions mystérieuses. Rapidement la ferme fut récupérée par un oncle peu scrupuleux. Martin disparu alors une première fois. Le bruit courut qu'il s'était enrôlé au service de Jean de Roubaix vassal du duc de Bourgogne.
+    </p><p>Des années plus tard les gens du pays dirent avoir revu un homme qui prétendait être Martin. Un sergent d'arme, qui semblait avoir fait fortune au service du jeune Pierre de Roubaix. La guerre l'avait probablement changé, ce Martin là aboyait des ordres et proférait des jurons à faire rougir les nones, et quand il ne buvait pas, se battait. 
+    L'oncle refusa catégoriquement de reconnaitre l'identité de Martin affirmant que la famine aidant il avait probablement été dévoré par son propre chien. L affaire ne fut jamais vraiment dénouée. Enrichi par son seigneur qui lui offrit l'une de ses cousines en épousailles, Martin Guerre ne réclama jamais la ferme familiale. De son côté, l'oncle finit par cesser ses allégations concernant l'identité de son neveu. 
+    Martin disparut une deuxième fois lors de la débâcle de Nancy. Si l'oncle de Martin était alors décédé depuis longtemps, au village on se demandait toujours si Martin ne pourrait pas à nouveau réapparaître.
+      </p>`
+  },
+  {
+    name: 'Adélaïde de Oignies',
+    subName: '1410-1477',
+    title: 'Sergent',
+    picture: 'adelaide.jpg',
+    story: `<p>
+    Adélaïde de Oignies Née au cœur du St empire Romain Germanique. Une région marécageuse où les hospitaliers se sont implantés. Une région avec de nombreux Hérons dont la famille Czaplicka a fait son emblème. 
+    Lointaine cousine de Pierre de Roubaix, Adélaïde fut mariée une première fois à un roturier. Elle apporte en dote une maison fortifiée et des terres sur Oignies. </p><p>A la mort de son époux, elle refuse de repartir dans le St empire pour y être remariée ou enfermée dans un couvent. Dans un premier temps elle se cache au milieu de des hommes d'armes du seigneur de Roubaix. Finalement découverte elle négocie un accord peu conventionnel avec son cousin.  Adélaïde a pris goût à la vie de camp l'insolence des soldats et leur liberté de ton. Pierre de Roubaix de son côté compte bien faire d'une pierre deux coups. Elle pourra porter les armes le jour et les robes d'apparat le soir à deux conditions. Veiller sur l'impétueuse fille de son cousin, Isabeau de Roubaix et épouser le sergent d'armes Martin Guerre. 
+          </p>`
   },
   {
     name: 'Yvan Durosel',
