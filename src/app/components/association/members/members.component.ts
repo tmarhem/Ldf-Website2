@@ -186,7 +186,7 @@ en exerçant ses talents de brodeuse et de couturière.
     name: 'Jehan de Fleury',
     subName: '?????-????',
     title: 'Soldat',
-    picture: '',
+    picture: 'jehan.jpg',
     story: `
     <p>Jehan de Fleury est originaire du comté de Hainaut et plus précisément de Fleury.</p>
     <p>Il s’ennuie à travailler dans les champs et aux fourneaux, ou à exécuter les basses œuvres de la famille. Il n’est pas l’aîné (il a 2 frères et 1 sœur), n’a pas droit aux honneurs et se retrouve toujours au second plan (même sur les gravures de famille). « Fleury, c’est un peu comme la prison », écrira ce poète dans ses mémoires. Cette maxime ne tombera pas dans l’oreille d’un sourd.</p>
